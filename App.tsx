@@ -11,44 +11,44 @@ import React, { useState, useEffect } from 'react';
 const galleryItems = [
   {
     // Ruta de la imagen 1: /images/kitten1.jpg
-    imageSrc: 'public/images/kitten1.jpg',
+    imageSrc: '/images/kitten1.jpg',
     caption: 'Mi amor, sé que anoche metí la pata',
     fallback: 'https://placekitten.com/408/287',
   },
   {
     // Ruta de la imagen 2: /images/kitten2.jpg
-    imageSrc: 'public/images/kitten2.jpg',
+    imageSrc: '/images/kitten2.jpg',
     caption: 'y te hice sentir mal.',
     fallback: 'https://placekitten.com/400/300',
   },
   {
     // Ruta de la imagen 3: /images/kitten3.jpg
-    imageSrc: 'public/images/kitten3.jpg',
+    imageSrc: '/images/kitten3.jpg',
     caption: 'Lo siento con todo mi corazón',
     fallback: 'https://placekitten.com/450/300',
   },
   {
     // Ruta de la imagen 4: /images/kitten4.jpg
-    imageSrc: 'public/images/kitten4.jpg',
+    imageSrc: '/images/kitten4.jpg',
     caption: 'Tú eres lo más importante para mí',
     fallback: 'https://placekitten.com/400/350',
   },
   {
     // Ruta de la imagen 5: /images/kitten5.jpg
-    imageSrc: 'public/images/kitten5.jpg',
+    imageSrc: '/images/kitten5.jpg',
     caption: 'y no quiero perderte por un error tonto.',
     fallback: 'https://placekitten.com/350/400',
   },
   {
     // Ruta de la imagen 6: /images/kitten6.jpg
-    imageSrc: 'public/images/kitten6.jpg',
+    imageSrc: '/images/kitten6.jpg',
     caption: 'Ni manchar el camino de lo que estamos construyendo juntos.',
     fallback: 'https://placekitten.com/400/400',
   },
 
     {
     // Ruta de la imagen 7: /images/kitten7.jpg
-    imageSrc: 'public/images/kitten7.jpg',
+    imageSrc: '/images/kitten7.jpg',
     caption: '¿Me perdonas?',
     fallback: 'https://placekitten.com/400/400',
   },
